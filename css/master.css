@@ -1,0 +1,122 @@
+:root {
+  --mastercolor: #2196f3;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--mastercolor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: cursive;
+}
+.main {
+  width: 300px;
+  height: 480px;
+  background-color: white;
+  border-radius: 10px;
+}
+.main h2 {
+  margin-top: 22px;
+  font-size: 23px;
+  text-align: center;
+}
+.main .input {
+  margin-top: 10px;
+  text-align: center;
+}
+.main .input input {
+  border: none;
+  border-bottom: 1px solid #eee;
+  width: calc(100% - 60px);
+  margin: 10px;
+  height: 25px;
+  outline: none;
+}
+.main .input input::placeholder {
+  font-size: 13px;
+  color: #00000080;
+}
+.main .login {
+  text-align: center;
+}
+.main .login input {
+  background-color: var(--mastercolor);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  width: calc(100% - 40px);
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.main .account {
+  text-align: center;
+  margin: 30px 20px 20px 20px;
+  font-size: 13px;
+}
+.main .account span {
+  font-weight: bold;
+  color: var(--mastercolor);
+}
+.main hr {
+  width: 90%;
+  margin: 27px auto;
+  border-style: dashed;
+  opacity: 0.2;
+}
+.main .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .footer .text {
+  font-size: 13px;
+  font-weight: bold;
+  color: #565656;
+}
+.main .footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.main .footer .social .facebook,
+.main .footer .social .twitter, 
+.main .footer .social .google {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.main .footer .social .facebook {
+  background-color: #3b5998;
+}
+.main .footer .social .twitter {
+  background-color: #1da1f2;
+}
+.main .footer .social .google {
+  background-color: #db4437;
+}
+.main .footer .social .facebook:hover,
+.main .footer .social .twitter:hover, 
+.main .footer .social .google:hover {
+  transform: translateY(5px);
+}
