@@ -39,6 +39,7 @@ body {
 .main .input input::placeholder {
   font-size: 13px;
   color: #00000080;
+  font-family: cursive;
 }
 .main .login {
   text-align: center;
